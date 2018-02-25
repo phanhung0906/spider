@@ -1,0 +1,85 @@
+/*=============================================== LIST CATEGORY ======================================================*/
+.all-category-block {
+    border: 1px solid #ddd;
+    margin: 30px 0;
+}
+.all-category-block .cate-box {
+    border-bottom: 1px solid #ddd;
+}
+.all-category-block .cate-box .box-head {
+    background: #fff;
+    height: 50px;
+    padding: 0 20px;
+    border-bottom: solid 1px #efefef;
+}
+.all-category-block .cate-box .box-head .icon {
+    background: #0aa6e8;
+    display: inline-block;
+    width: 36px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    margin-right: 5px;
+    color: #fff;
+}
+.all-category-block .cate-box .box-head .icon img {
+    max-width: 19px;
+    max-height: 19px;
+}
+.all-category-block .cate-box .box-head .title {
+    display: inline-block;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+.all-category-block .cate-box .box-main {
+    padding: 20px 20px 0 20px;
+    background: #fff;
+}
+.row.row-10px {
+    margin: 0 -10px;
+}
+.row.row-10px>[class*=col-] {
+    padding: 0 10px;
+}
+.all-category-block .cate-group {
+    margin-bottom: 20px;
+}
+.all-category-block .cate-group .lv2-title {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #f1f1f1;
+    margin-bottom: 10px;
+}
+.all-category-block .cate-group .scroll-wrap.is-hide {
+    display: block;
+}
+.all-category-block .cate-group .scroll-wrap {
+    margin-bottom: 7px;
+    overflow: hidden;
+}
+.all-category-block .cate-group .lv2-title a {
+    display: block;
+    text-transform: uppercase;
+    color: #333;
+    font-weight: 700;
+}
+.all-category-block .cate-group .lv3-list {
+    list-style: none;
+}
+.all-category-block .cate-group .lv3-list a {
+    display: block;
+    color: #333;
+    line-height: 22px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 22px;
+    overflow: hidden;
+}
+.all-category-block .cate-group .lv3-list a > i {
+    margin-right: 5px;
+}
+.all-category-block .cate-group .lv3-list a:hover {
+    color: #2196f3;
+}
